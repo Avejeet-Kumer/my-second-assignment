@@ -6,6 +6,9 @@ section{
     margin-bottom: 50px;
 }
 
+
+
+/* Main body  */
 .container{
 
 display: flex;
@@ -19,6 +22,14 @@ width: 50%;
 
     width: 60%;
     padding-left: 20px;
+
+    
+}
+
+.container img:hover{
+ transform: scale(1.5);
+    
+    transition: transform 5s;
 }
 
 .link{
@@ -27,7 +38,7 @@ width: 50%;
     color: rgb(243, 235, 235);
     padding: 10px 40px;
     background-color: rgb(204, 58, 58);
-    border-radius: 10px;
+    border-radius: 20px;
     margin-top: 20px;
 }
 .h1-text{
@@ -57,6 +68,8 @@ width: 50%;
 width: 100%;
 
 }
+
+
 .rating{
 color: goldenrod;
 display: flex;
@@ -82,6 +95,8 @@ list-style: none;
     width: 80%;
 }
 
+/* footer start */
+
 footer{
     text-align: center;
     padding-top: 20px;
@@ -105,6 +120,8 @@ footer{
 .fab li{
     text-align: center;
 }
+
+/* for mobile */
 
 @media only screen and (max-width:688px){
     .container img{
@@ -142,11 +159,17 @@ padding: 5px ;
     }
 }
 
+/* for tab */
+
 @media only screen and (min-width: 688px) and (max-width:992px){
 
     .container{
         
         grid-template-columns: repeat(2, 1fr);
+        width: 100%;
+    }
+
+    .container img{
         width: 100%;
     }
 
