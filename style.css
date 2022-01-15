@@ -2,6 +2,9 @@ body{
     font-family: 'Poppins', sans-serif;
 margin: 40px;
 }
+section{
+    margin-bottom: 50px;
+}
 
 .container{
 
@@ -20,10 +23,11 @@ width: 50%;
 
 .link{
     text-decoration: none;
-    font-weight: 700;
-    color: rgb(214, 179, 179);
-    padding:10px 40px;
-    background-color: rgb(133, 55, 55);
+    font-weight: 400;
+    color: rgb(243, 235, 235);
+    padding: 10px 40px;
+    background-color: rgb(204, 58, 58);
+    margin-top: 20px;
 }
 .h1-text{
     text-align: center;
@@ -58,4 +62,21 @@ display: flex;
 list-style: none;
 
 
+}
+.see-more{
+ float: right;
+ text-decoration: none;
+ color: rgb(196, 42, 93);
+ font-size: 28px;
+ margin-top: 30px;
+
+}
+.donate{
+
+   display: flex;
+   width: ;
+}
+
+.donate img{
+    width: 80%;
 }
